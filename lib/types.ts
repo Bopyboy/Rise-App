@@ -167,6 +167,27 @@ export const DAILY_QUESTS: DailyQuest[] = [
   { id: 'core-crusher', title: 'Core Crusher', description: 'Complete 200 ab reps', type: 'workout', xpReward: 125, target: 200, unit: 'reps' },
 ]
 
+// Friends Types
+export interface Friend {
+  id: string
+  name: string
+  friendCode: string
+  riseScore: number
+  streak: number
+  workoutsCompleted?: number
+  status: 'pending' | 'accepted'
+  addedAt: string
+}
+
+export const VIRTUAL_FRIENDS: Record<string, Omit<Friend, 'id' | 'addedAt' | 'status'>> = {
+  JAKE8XQR: { name: 'Jake Thompson', friendCode: 'JAKE8XQR', riseScore: 7823, streak: 14, workoutsCompleted: 68 },
+  SARA2KLP: { name: 'Sarah Chen', friendCode: 'SARA2KLP', riseScore: 12450, streak: 21, workoutsCompleted: 110 },
+  MIKE5JVT: { name: 'Mike Rodriguez', friendCode: 'MIKE5JVT', riseScore: 3200, streak: 5, workoutsCompleted: 29 },
+  ALEX9WNB: { name: 'Alex Kim', friendCode: 'ALEX9WNB', riseScore: 19800, streak: 45, workoutsCompleted: 203 },
+  EMMA3PZS: { name: 'Emma Davis', friendCode: 'EMMA3PZS', riseScore: 1050, streak: 3, workoutsCompleted: 12 },
+  RYAN7CFX: { name: 'Ryan Lee', friendCode: 'RYAN7CFX', riseScore: 26100, streak: 62, workoutsCompleted: 315 },
+}
+
 // Body Chart Types
 export type MuscleLevel = 'untrained' | 'beginner' | 'intermediate' | 'advanced' | 'elite'
 

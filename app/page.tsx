@@ -8,6 +8,8 @@ import { NutritionPage } from '@/components/nutrition-page'
 import { WorkoutPage } from '@/components/workout-page'
 import { BodyChartPage } from '@/components/body-chart-page'
 import { SettingsPage } from '@/components/settings-page'
+import { ChatPage } from '@/components/chat-page'
+import { FriendsPage } from '@/components/friends-page'
 
 function AppContent() {
   const [activeTab, setActiveTab] = useState('home')
@@ -20,6 +22,8 @@ function AppContent() {
         {activeTab === 'workout' && <WorkoutPage />}
         {activeTab === 'body' && <BodyChartPage />}
         {activeTab === 'settings' && <SettingsPage />}
+        {activeTab === 'chat' && <ChatPage />}
+        {activeTab === 'friends' && <FriendsPage />}
       </main>
       <BottomNav activeTab={activeTab} onTabChange={setActiveTab} />
     </div>
