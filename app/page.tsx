@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { AppProvider } from '@/lib/app-context'
 import { BottomNav } from '@/components/bottom-nav'
 import { HomePage } from '@/components/home-page'
@@ -31,6 +31,9 @@ function AppContent() {
 }
 
 export default function Page() {
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
+  if (!mounted) return null
   return (
     <AppProvider>
       <AppContent />
