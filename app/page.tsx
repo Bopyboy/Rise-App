@@ -1,0 +1,35 @@
+'use client'
+
+import { useState } from 'react'
+import { AppProvider } from '@/lib/app-context'
+import { BottomNav } from '@/components/bottom-nav'
+import { HomePage } from '@/components/home-page'
+import { NutritionPage } from '@/components/nutrition-page'
+import { WorkoutPage } from '@/components/workout-page'
+import { BodyChartPage } from '@/components/body-chart-page'
+import { SettingsPage } from '@/components/settings-page'
+
+function AppContent() {
+  const [activeTab, setActiveTab] = useState('home')
+
+  return (
+    <div className="min-h-screen bg-background">
+      <main className="mx-auto max-w-md px-4 pb-20 pt-6">
+        {activeTab === 'home' && <HomePage />}
+        {activeTab === 'nutrition' && <NutritionPage />}
+        {activeTab === 'workout' && <WorkoutPage />}
+        {activeTab === 'body' && <BodyChartPage />}
+        {activeTab === 'settings' && <SettingsPage />}
+      </main>
+      <BottomNav activeTab={activeTab} onTabChange={setActiveTab} />
+    </div>
+  )
+}
+
+export default function Page() {
+  return (
+    <AppProvider>
+      <AppContent />
+    </AppProvider>
+  )
+}
