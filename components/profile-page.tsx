@@ -4,10 +4,14 @@ import { useApp } from '@/lib/app-context'
 import { getRankByScore } from '@/lib/types'
 import { Flame, Trophy, Dumbbell, Scale, Ruler, Calendar } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { SHOP_ITEMS } from '@/components/shop-page'
 
 export function ProfilePage() {
-  const { settings, riseScore, streak } = useApp()
+  const { settings, riseScore, streak, equippedItems, coins } = useApp()
   const currentRank = getRankByScore(riseScore)
+
+  const equippedBanner = SHOP_ITEMS.find(i => i.id === equippedItems['banner'])
+  const equippedBadge = SHOP_ITEMS.find(i => i.id === equippedItems['badge'])
 
   const stats = [
     { icon: Scale, label: 'Weight', value: `${settings.weight} kg` },
@@ -33,23 +37,41 @@ export function ProfilePage() {
   return (
     <div className="space-y-4 pb-20">
       {/* Profile Header */}
-      <div className="flex items-center gap-4">
-        <div className="flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-primary/20 to-primary/5 text-3xl font-bold text-primary">
-          {settings.name.charAt(0).toUpperCase()}
-        </div>
-        <div>
-          <h1 className="text-2xl font-bold text-foreground">{settings.name}</h1>
-          <div className="mt-1 flex items-center gap-2">
-            <span className="text-lg">{currentRank.symbol}</span>
-            <span
-              className={cn(
-                'font-semibold',
-                currentRank.name === 'Elite' && 'elite-text'
-              )}
-              style={{ color: currentRank.name !== 'Elite' ? currentRank.color : undefined }}
-            >
-              {currentRank.name}
+      <div className="relative overflow-hidden rounded-2xl border border-border bg-card">
+        {equippedBanner?.gradient ? (
+          <div className={cn('h-24 w-full bg-gradient-to-r', equippedBanner.gradient, 'flex items-end justify-end p-2')}>
+            <span className="text-xs font-semibold text-white/80 bg-black/20 rounded-full px-2 py-0.5">
+              {equippedBanner.name}
             </span>
+          </div>
+        ) : (
+          <div className="h-24 w-full bg-gradient-to-r from-primary/20 to-primary/5" />
+        )}
+
+        <div className="flex items-end gap-3 px-4 pb-4" style={{ marginTop: '-2rem' }}>
+          <div className="flex h-16 w-16 items-center justify-center rounded-full border-4 border-card bg-gradient-to-br from-primary/30 to-primary/10 text-2xl font-bold text-primary shadow-lg">
+            {settings.name.charAt(0).toUpperCase()}
+          </div>
+          <div className="pb-1 flex-1">
+            <div className="flex items-center gap-2">
+              <h1 className="text-xl font-bold text-foreground">{settings.name}</h1>
+              {equippedBadge && (
+                <span className="text-lg" title={equippedBadge.name}>{equippedBadge.preview}</span>
+              )}
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-base">{currentRank.symbol}</span>
+              <span
+                className={cn('font-semibold text-sm', currentRank.name === 'Elite' && 'elite-text')}
+                style={{ color: currentRank.name !== 'Elite' ? currentRank.color : undefined }}
+              >
+                {currentRank.name}
+              </span>
+              <div className="flex items-center gap-1 ml-1">
+                <span className="text-amber-400 text-xs">🪙</span>
+                <span className="text-xs font-semibold text-amber-400">{coins.toLocaleString()}</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -98,10 +120,7 @@ export function ProfilePage() {
         </div>
         <div className="space-y-2">
           {prs.map(pr => (
-            <div
-              key={pr.exercise}
-              className="flex items-center justify-between rounded-lg bg-secondary/50 px-3 py-2"
-            >
+            <div key={pr.exercise} className="flex items-center justify-between rounded-lg bg-secondary/50 px-3 py-2">
               <div>
                 <p className="font-medium text-foreground">{pr.exercise}</p>
                 <p className="text-xs text-muted-foreground">{pr.date}</p>
@@ -121,22 +140,13 @@ export function ProfilePage() {
               key={achievement.name}
               className={cn(
                 'rounded-lg p-2 text-center transition-colors',
-                achievement.earned
-                  ? 'bg-amber-500/10'
-                  : 'bg-secondary/50 opacity-50'
+                achievement.earned ? 'bg-amber-500/10' : 'bg-secondary/50 opacity-50'
               )}
             >
-              <div
-                className={cn(
-                  'mx-auto flex h-10 w-10 items-center justify-center rounded-full text-lg',
-                  achievement.earned ? 'bg-amber-500/20' : 'bg-secondary'
-                )}
-              >
+              <div className={cn('mx-auto flex h-10 w-10 items-center justify-center rounded-full text-lg', achievement.earned ? 'bg-amber-500/20' : 'bg-secondary')}>
                 {achievement.earned ? '🏆' : '🔒'}
               </div>
-              <p className="mt-1 text-xs font-medium text-foreground">
-                {achievement.name}
-              </p>
+              <p className="mt-1 text-xs font-medium text-foreground">{achievement.name}</p>
             </div>
           ))}
         </div>

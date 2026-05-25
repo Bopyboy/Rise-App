@@ -1,0 +1,223 @@
+
+> my-project@0.1.0 build
+> next build
+
+[1G[0K   [1m[38;2;173;127;168m▲ Next.js 15.5.18[39m[22m
+
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [32m[1m✓[22m[39m Compiled successfully in 3.4s
+ [37m[1m [22m[39m Skipping validation of types
+ [37m[1m [22m[39m Skipping linting
+[?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data     [32m[1m✓[22m[39m Collecting page data 
+[?25l [37m[1m [22m[39m Generating static pages (0/4)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/4)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/4)  [36m[==  ][39m[2K[1G[?25h [32m[1m✓[22m[39m Generating static pages (4/4)
+[?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Collecting build traces     [32m[1m✓[22m[39m Collecting build traces 
+[?25l [37m[1m [22m[39m Exporting (0/2)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Exporting (0/2)  [36m[=   ][39m[2K[1G[?25h[2K[1G[?25h [32m[1m✓[22m[39m Exporting (2/2)
+[?25l [36m.[39m [2K[1G[?25h    [32m[1m✓[22m[39m Finalizing page optimization 
+
+[4mRoute (app)[24m                                 [4mSize[24m  [4mFirst Load JS[24m  [4m[24m  [4m[24m
+┌ ○ /                                    47.9 kB         [37m[1m150 kB[22m[39m
+└ ○ /_not-found                            995 B         [37m[1m103 kB[22m[39m
++ First Load JS shared by all             [37m[1m102 kB[22m[39m
+  ├ chunks/255-d47fd57964443afe.js       46.3 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+  └ other shared chunks (total)          1.89 kB
+
+
+○  (Static)  prerendered as static content
+
+[?25h[1G[0K⠙[1G[0K[1G[0K⠙[1G[0K[32m[39m
+[32m   ┌────────────────────────────────────────┐[39m
+   [32m│[39m                                        [32m│[39m
+   [32m│[39m   [32mServing![39m                             [32m│[39m
+   [32m│[39m                                        [32m│[39m
+   [32m│[39m   [1m- Local:[22m    http://localhost:5000    [32m│[39m
+   [32m│[39m   [1m- Network:[22m  http://172.24.0.2:5000   [32m│[39m
+   [32m│[39m                                        [32m│[39m
+[32m   └────────────────────────────────────────┘[39m
+[32m[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 19 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [36mGET /_next/static/css/3e2b1ff414d5fb5a.css[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [36mGET /_next/static/chunks/webpack-4a462cecab786e93.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [32mReturned 200 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [32mReturned 200 in 5 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [36mGET /_next/static/chunks/4bd1b696-c023c6e3521b1417.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [36mGET /_next/static/chunks/255-d47fd57964443afe.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [36mGET /_next/static/chunks/main-app-5bd5d867657f2e99.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [36mGET /_next/static/chunks/app/layout-689a98d6ef4cab3d.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [36mGET /_next/static/chunks/109-6722073b7fc78a8a.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [32mReturned 200 in 4 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [32mReturned 200 in 8 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [32mReturned 200 in 8 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [36mGET /_next/static/chunks/app/page-5c37443ca6a0ae8b.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [32mReturned 200 in 6 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m::1[39m [32mReturned 200 in 8 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/css/3e2b1ff414d5fb5a.css[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:22 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/webpack-4a462cecab786e93.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/css/3e2b1ff414d5fb5a.css[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/4bd1b696-c023c6e3521b1417.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/255-d47fd57964443afe.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/webpack-4a462cecab786e93.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/layout-689a98d6ef4cab3d.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/109-6722073b7fc78a8a.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/main-app-5bd5d867657f2e99.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/4bd1b696-c023c6e3521b1417.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/255-d47fd57964443afe.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/layout-689a98d6ef4cab3d.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/main-app-5bd5d867657f2e99.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/page-5c37443ca6a0ae8b.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/109-6722073b7fc78a8a.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/page-5c37443ca6a0ae8b.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:23 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [36mGET /_next/static/css/3e2b1ff414d5fb5a.css[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [36mGET /_next/static/chunks/webpack-4a462cecab786e93.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [36mGET /_next/static/chunks/4bd1b696-c023c6e3521b1417.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [36mGET /_next/static/chunks/255-d47fd57964443afe.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [36mGET /_next/static/chunks/main-app-5bd5d867657f2e99.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [36mGET /_next/static/chunks/app/layout-689a98d6ef4cab3d.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [36mGET /_next/static/chunks/109-6722073b7fc78a8a.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [32mReturned 304 in 3 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [36mGET /_next/static/chunks/app/page-5c37443ca6a0ae8b.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:06:38 AM[22m [33m::1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/css/3e2b1ff414d5fb5a.css[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/webpack-4a462cecab786e93.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/4bd1b696-c023c6e3521b1417.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/255-d47fd57964443afe.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/109-6722073b7fc78a8a.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/layout-689a98d6ef4cab3d.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/main-app-5bd5d867657f2e99.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/page-5c37443ca6a0ae8b.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [36mGET /manifest.json[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [36mGET /favicon.ico[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:47 AM[22m [33m127.0.0.1[39m [31mReturned 404 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:48 AM[22m [33m127.0.0.1[39m [36mGET /icon-192.png[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:08:48 AM[22m [33m127.0.0.1[39m [31mReturned 404 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/css/3e2b1ff414d5fb5a.css[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/webpack-4a462cecab786e93.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/4bd1b696-c023c6e3521b1417.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/255-d47fd57964443afe.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/main-app-5bd5d867657f2e99.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/109-6722073b7fc78a8a.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/layout-689a98d6ef4cab3d.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/page-5c37443ca6a0ae8b.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:21 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/css/3e2b1ff414d5fb5a.css[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/webpack-4a462cecab786e93.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/4bd1b696-c023c6e3521b1417.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/main-app-5bd5d867657f2e99.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/255-d47fd57964443afe.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/layout-689a98d6ef4cab3d.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/109-6722073b7fc78a8a.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:47 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:48 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/page-5c37443ca6a0ae8b.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:23:48 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/css/3e2b1ff414d5fb5a.css[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/109-6722073b7fc78a8a.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/webpack-4a462cecab786e93.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/255-d47fd57964443afe.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/4bd1b696-c023c6e3521b1417.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/main-app-5bd5d867657f2e99.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/layout-689a98d6ef4cab3d.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/page-5c37443ca6a0ae8b.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:07 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/css/3e2b1ff414d5fb5a.css[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/webpack-4a462cecab786e93.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/main-app-5bd5d867657f2e99.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/109-6722073b7fc78a8a.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/layout-689a98d6ef4cab3d.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/255-d47fd57964443afe.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/4bd1b696-c023c6e3521b1417.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/page-5c37443ca6a0ae8b.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:26:39 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [36mGET /[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/css/3e2b1ff414d5fb5a.css[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/4bd1b696-c023c6e3521b1417.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 2 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/main-app-5bd5d867657f2e99.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/255-d47fd57964443afe.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/webpack-4a462cecab786e93.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 0 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/layout-689a98d6ef4cab3d.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/app/page-5c37443ca6a0ae8b.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [32mReturned 200 in 1 ms[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [36mGET /_next/static/chunks/109-6722073b7fc78a8a.js[39m
+[44m[1m HTTP [22m[49m [2m5/24/2026 1:28:11 AM[22m [33m127.0.0.1[39m [32mReturned 304 in 1 ms[39m

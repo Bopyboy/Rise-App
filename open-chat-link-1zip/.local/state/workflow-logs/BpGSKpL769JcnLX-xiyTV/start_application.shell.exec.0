@@ -1,0 +1,2069 @@
+
+> my-project@0.1.0 dev
+> next dev -p 5000
+
+[1G[0K   [1m[38;2;173;127;168m▲ Next.js 15.5.18[39m[22m
+   - Local:        http://localhost:5000
+   - Network:      http://172.24.0.2:5000
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 3.3s
+ [37m[1m○[22m[39m Compiling / ...
+ [32m[1m✓[22m[39m Compiled / in 5.4s (735 modules)
+ GET / [32m200[39m in 6160ms
+ GET / [32m200[39m in 1831ms
+ [32m[1m✓[22m[39m Compiled in 1003ms (322 modules)
+ GET / [32m200[39m in 133ms
+ [32m[1m✓[22m[39m Compiled in 199ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 158ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 154ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 147ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 174ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 154ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 147ms (322 modules)
+ [33m[1m⚠[22m[39m Cross origin request detected from 27d672a6-b7dd-4766-92db-f7a03c1660b1-00-t3lq9e6j6hxq.spock.replit.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ [32m[1m✓[22m[39m Compiled in 169ms (322 modules)
+ GET / [32m200[39m in 158ms
+ [32m[1m✓[22m[39m Compiled in 291ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 135ms (322 modules)
+ GET / [32m200[39m in 203ms
+ [32m[1m✓[22m[39m Compiled in 169ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 145ms (322 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 123ms (322 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (322 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 148ms (322 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 135ms (322 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 119ms (322 modules)
+ GET / [32m200[39m in 105ms
+ [32m[1m✓[22m[39m Compiled in 134ms (322 modules)
+ GET / [32m200[39m in 135ms
+ [32m[1m✓[22m[39m Compiled in 156ms (322 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 140ms (322 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 137ms (322 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 126ms (322 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 119ms (322 modules)
+ GET / [32m200[39m in 136ms
+ [32m[1m✓[22m[39m Compiled in 136ms (322 modules)
+ GET / [32m200[39m in 137ms
+ [32m[1m✓[22m[39m Compiled in 149ms (322 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 136ms (322 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 130ms (322 modules)
+ GET / [32m200[39m in 47ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 487ms (322 modules)
+ [37m[1m○[22m[39m Compiling /_error ...
+ [32m[1m✓[22m[39m Compiled /_error in 2.3s (1073 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [31m500[39m in 3151ms
+ [32m[1m✓[22m[39m Compiled in 258ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 233ms (475 modules)
+ GET / [32m200[39m in 139ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 56ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 167ms (475 modules)
+ GET / [32m200[39m in 58ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 163ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [31m500[39m in 296ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 174ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 171ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [31m500[39m in 316ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (475 modules)
+ GET / [32m200[39m in 56ms
+ [32m[1m✓[22m[39m Compiled in 167ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 152ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 351ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [31m500[39m in 491ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 190ms
+ [32m[1m✓[22m[39m Compiled in 152ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 185ms (475 modules)
+ GET / [32m200[39m in 118ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 663ms (1073 modules)
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [31m500[39m in 740ms
+ [32m[1m✓[22m[39m Compiled in 158ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 244ms
+ [32m[1m✓[22m[39m Compiled in 211ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ GET / [31m500[39m in 281ms
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ GET / [31m500[39m in 278ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ GET / [32m200[39m in 110ms
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 560ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ GET / [31m500[39m in 698ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 115ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 136ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 154ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 169ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 169ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 340ms (1073 modules)
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [31m500[39m in 565ms
+ [32m[1m✓[22m[39m Compiled in 209ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 213ms (475 modules)
+ GET / [32m200[39m in 85ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 174ms
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [32m200[39m in 175ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 158ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 172ms (475 modules)
+ GET / [32m200[39m in 59ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 134ms (475 modules)
+ GET / [32m200[39m in 172ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [32m200[39m in 112ms
+ [32m[1m✓[22m[39m Compiled in 157ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 56ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [32m200[39m in 115ms
+ [32m[1m✓[22m[39m Compiled in 166ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ GET / [32m200[39m in 59ms
+ [32m[1m✓[22m[39m Compiled in 352ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [31m500[39m in 285ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 123ms (475 modules)
+ GET / [31m500[39m in 275ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ GET / [32m200[39m in 170ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [32m200[39m in 169ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 355ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ GET / [31m500[39m in 508ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [32m200[39m in 171ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 178ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ GET / [32m200[39m in 173ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 433ms
+ [32m[1m✓[22m[39m Compiled in 378ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 161ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 163ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 178ms (475 modules)
+ GET / [32m200[39m in 62ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 154ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 152ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [32m200[39m in 115ms
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [31m500[39m in 285ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 43ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [32m200[39m in 130ms
+ [32m[1m✓[22m[39m Compiled in 159ms (475 modules)
+ GET / [32m200[39m in 58ms
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 134ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ GET / [32m200[39m in 183ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 65ms
+ [32m[1m✓[22m[39m Compiled in 170ms (475 modules)
+ GET / [32m200[39m in 56ms
+ [32m[1m✓[22m[39m Compiled in 158ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ GET / [31m500[39m in 302ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 154ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 154ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 115ms
+ [32m[1m✓[22m[39m Compiled in 159ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 166ms (475 modules)
+ GET / [32m200[39m in 62ms
+ [32m[1m✓[22m[39m Compiled in 152ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ GET / [32m200[39m in 187ms
+ [32m[1m✓[22m[39m Compiled in 182ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 57ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 160ms (475 modules)
+ GET / [32m200[39m in 60ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 165ms (475 modules)
+ GET / [32m200[39m in 75ms
+ [32m[1m✓[22m[39m Compiled in 355ms (475 modules)
+ GET / [32m200[39m in 148ms
+ [32m[1m✓[22m[39m Compiled in 152ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ GET / [32m200[39m in 171ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ GET / [31m500[39m in 281ms
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ GET / [32m200[39m in 172ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 123ms (475 modules)
+ GET / [31m500[39m in 276ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 123ms (475 modules)
+ GET / [32m200[39m in 165ms
+ [32m[1m✓[22m[39m Compiled in 134ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ GET / [31m500[39m in 278ms
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ GET / [32m200[39m in 166ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ GET / [32m200[39m in 136ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 119ms (475 modules)
+ GET / [31m500[39m in 276ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 123ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 162ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ GET / [32m200[39m in 108ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ GET / [32m200[39m in 120ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 369ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ GET / [31m500[39m in 484ms
+ [32m[1m✓[22m[39m Compiled in 134ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ GET / [32m200[39m in 173ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 152ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [31m500[39m in 304ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [31m500[39m in 485ms
+ [32m[1m✓[22m[39m Compiled in 329ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 56ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ GET / [32m200[39m in 62ms
+ [32m[1m✓[22m[39m Compiled in 134ms (475 modules)
+ GET / [32m200[39m in 125ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ GET / [32m200[39m in 166ms
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 122ms (475 modules)
+ GET / [32m200[39m in 105ms
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 123ms (475 modules)
+ GET / [31m500[39m in 280ms
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 123ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [32m200[39m in 167ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [32m200[39m in 180ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 121ms (475 modules)
+ GET / [31m500[39m in 272ms
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 167ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ GET / [32m200[39m in 110ms
+ [32m[1m✓[22m[39m Compiled in 160ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [31m500[39m in 283ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 185ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 551ms (1073 modules)
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ GET / [31m500[39m in 697ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 183ms (475 modules)
+ GET / [32m200[39m in 93ms
+ [32m[1m✓[22m[39m Compiled in 154ms (475 modules)
+ GET / [32m200[39m in 67ms
+ [32m[1m✓[22m[39m Compiled in 372ms (475 modules)
+ GET / [32m200[39m in 209ms
+ [32m[1m✓[22m[39m Compiled in 154ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 154ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [31m500[39m in 307ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ GET / [32m200[39m in 135ms
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ GET / [32m200[39m in 41ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [32m200[39m in 133ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ GET / [32m200[39m in 170ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 168ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [31m500[39m in 294ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 154ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ GET / [32m200[39m in 127ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 134ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [32m200[39m in 112ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ GET / [32m200[39m in 178ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 152ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [31m500[39m in 285ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 556ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [31m500[39m in 695ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 78ms
+ [32m[1m✓[22m[39m Compiled in 378ms (475 modules)
+ GET / [32m200[39m in 63ms
+ [32m[1m✓[22m[39m Compiled in 157ms (475 modules)
+ GET / [32m200[39m in 58ms
+ [32m[1m✓[22m[39m Compiled in 166ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 181ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (475 modules)
+ GET / [32m200[39m in 202ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 176ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ GET / [32m200[39m in 60ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ GET / [31m500[39m in 288ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [32m200[39m in 170ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [32m200[39m in 174ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ GET / [32m200[39m in 175ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [31m500[39m in 292ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ GET / [31m500[39m in 278ms
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 180ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ GET / [32m200[39m in 167ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [31m500[39m in 291ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [31m500[39m in 283ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 352ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ GET / [31m500[39m in 487ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 162ms (475 modules)
+ GET / [32m200[39m in 473ms
+ [32m[1m✓[22m[39m Compiled in 447ms (475 modules)
+ GET / [32m200[39m in 64ms
+ [32m[1m✓[22m[39m Compiled in 159ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 112ms
+ [32m[1m✓[22m[39m Compiled in 158ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 169ms (475 modules)
+ GET / [32m200[39m in 56ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [31m500[39m in 283ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [32m200[39m in 107ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 106ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [32m200[39m in 106ms
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 573ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [31m500[39m in 700ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ GET / [32m200[39m in 178ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [32m200[39m in 108ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ GET / [32m200[39m in 43ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 110ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 174ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 152ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [32m200[39m in 171ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ GET / [32m200[39m in 111ms
+ [32m[1m✓[22m[39m Compiled in 154ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 134ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ GET / [32m200[39m in 117ms
+ [32m[1m✓[22m[39m Compiled in 165ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 241ms (475 modules)
+ GET / [32m200[39m in 397ms
+ GET / [32m200[39m in 193ms
+ [32m[1m✓[22m[39m Compiled in 273ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [32m200[39m in 131ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 42ms
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ GET / [32m200[39m in 41ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 194ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 171ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 123ms (475 modules)
+ GET / [31m500[39m in 277ms
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 174ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ GET / [31m500[39m in 287ms
+ [32m[1m✓[22m[39m Compiled in 134ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 169ms (475 modules)
+ GET / [32m200[39m in 63ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ GET / [32m200[39m in 108ms
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 158ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 121ms (475 modules)
+ GET / [31m500[39m in 280ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ GET / [32m200[39m in 169ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 173ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [32m200[39m in 107ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 361ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [31m500[39m in 490ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 113ms
+ [32m[1m✓[22m[39m Compiled in 160ms (475 modules)
+ GET / [32m200[39m in 71ms
+ [32m[1m✓[22m[39m Compiled in 383ms (475 modules)
+ GET / [32m200[39m in 84ms
+ [32m[1m✓[22m[39m Compiled in 159ms (475 modules)
+ GET / [32m200[39m in 57ms
+ [32m[1m✓[22m[39m Compiled in 158ms (475 modules)
+ GET / [32m200[39m in 57ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 134ms (475 modules)
+ GET / [32m200[39m in 167ms
+ [32m[1m✓[22m[39m Compiled in 134ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [32m200[39m in 132ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 113ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 137ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 125ms
+ [32m[1m✓[22m[39m Compiled in 177ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [32m200[39m in 105ms
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ GET / [32m200[39m in 108ms
+ [32m[1m✓[22m[39m Compiled in 152ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ GET / [32m200[39m in 59ms
+ [32m[1m✓[22m[39m Compiled in 124ms (475 modules)
+ GET / [32m200[39m in 128ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 173ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 134ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 565ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [31m500[39m in 712ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [31m500[39m in 290ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 555ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ GET / [31m500[39m in 693ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ GET / [32m200[39m in 172ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 57ms
+ [32m[1m✓[22m[39m Compiled in 478ms (475 modules)
+ GET / [32m200[39m in 180ms
+ [32m[1m✓[22m[39m Compiled in 171ms (475 modules)
+ GET / [32m200[39m in 56ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 193ms
+ [32m[1m✓[22m[39m Compiled in 158ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 154ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ GET / [31m500[39m in 282ms
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [32m200[39m in 171ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ GET / [31m500[39m in 285ms
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 159ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 133ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ GET / [32m200[39m in 170ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [32m200[39m in 177ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 157ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 576ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [31m500[39m in 726ms
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ GET / [32m200[39m in 175ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 153ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 365ms (1073 modules)
+ [32m[1m✓[22m[39m Compiled in 127ms (475 modules)
+ GET / [31m500[39m in 543ms
+ [32m[1m✓[22m[39m Compiled in 158ms (475 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ GET / [31m500[39m in 287ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 218ms (475 modules)
+ GET / [32m200[39m in 123ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 154ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [31m500[39m in 292ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ [32m[1m✓[22m[39m Compiled in 473ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 400ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 1311ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 1061ms (1073 modules)
+ GET / [31m500[39m in 3379ms
+ [32m[1m✓[22m[39m Compiled in 163ms (475 modules)
+ GET / [32m200[39m in 192ms
+ [32m[1m✓[22m[39m Compiled in 236ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 366ms (475 modules)
+ GET / [32m200[39m in 272ms
+ [32m[1m✓[22m[39m Compiled in 340ms (475 modules)
+ GET / [32m200[39m in 221ms
+ [32m[1m✓[22m[39m Compiled in 157ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 56ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 138ms
+ [32m[1m✓[22m[39m Compiled in 161ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 157ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [31m500[39m in 326ms
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ GET / [32m200[39m in 171ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [31m500[39m in 295ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [32m200[39m in 173ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 158ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [31m500[39m in 295ms
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 151ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [31m500[39m in 289ms
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 152ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 197ms
+ [32m[1m✓[22m[39m Compiled in 162ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 179ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 132ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 147ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ GET / [32m200[39m in 168ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 55ms
+ [32m[1m✓[22m[39m Compiled in 150ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 173ms
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 137ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [32m200[39m in 168ms
+ [32m[1m✓[22m[39m Compiled in 135ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 162ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 196ms (475 modules)
+ GET / [32m200[39m in 124ms
+ [32m[1m✓[22m[39m Compiled in 399ms (475 modules)
+ GET / [32m200[39m in 274ms
+ [32m[1m✓[22m[39m Compiled in 155ms (475 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 157ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [31m500[39m in 295ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 169ms
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 144ms (475 modules)
+ GET / [32m200[39m in 45ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 129ms (475 modules)
+ GET / [31m500[39m in 291ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 205ms (475 modules)
+ GET / [32m200[39m in 74ms
+ [32m[1m✓[22m[39m Compiled in 146ms (475 modules)
+ GET / [32m200[39m in 44ms
+ [32m[1m✓[22m[39m Compiled in 166ms (475 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 175ms
+ [32m[1m✓[22m[39m Compiled in 141ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [32m200[39m in 171ms
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 143ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 131ms (475 modules)
+ GET / [32m200[39m in 112ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ GET / [32m200[39m in 113ms
+ [32m[1m✓[22m[39m Compiled in 161ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 148ms (475 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 125ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 136ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 171ms
+ [32m[1m✓[22m[39m Compiled in 140ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 119ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 126ms (475 modules)
+ GET / [32m200[39m in 185ms
+ [32m[1m✓[22m[39m Compiled in 152ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 139ms (475 modules)
+ GET / [32m200[39m in 50ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 171ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [31m500[39m in 298ms
+ [32m[1m✓[22m[39m Compiled in 130ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 138ms (475 modules)
+ GET / [32m200[39m in 211ms
+ [32m[1m✓[22m[39m Compiled in 169ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ GET / [32m200[39m in 172ms
+ [32m[1m✓[22m[39m Compiled in 133ms (475 modules)
+ [32m[1m✓[22m[39m Compiled in 142ms (475 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 128ms (475 modules)
+ GET / [32m200[39m in 112ms
+ [32m[1m✓[22m[39m Compiled in 156ms (475 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 145ms (475 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 149ms (475 modules)
+ GET / [32m200[39m in 50ms
+ GET / [32m200[39m in 63ms
+ [32m[1m✓[22m[39m Compiled in 1164ms (1069 modules)
+ GET / [32m200[39m in 1166ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 526ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 149ms (472 modules)
+ GET / [31m500[39m in 566ms
+ [32m[1m✓[22m[39m Compiled in 165ms (472 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 160ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 126ms (472 modules)
+ GET / [31m500[39m in 287ms
+ [32m[1m✓[22m[39m Compiled in 132ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 139ms (472 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 135ms (472 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 157ms (472 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 157ms (472 modules)
+ GET / [32m200[39m in 48ms
+ [33m[1m⚠[22m[39m Found a change in next.config.mjs. Restarting the server to apply the changes...
+   [1m[38;2;173;127;168m▲ Next.js 15.5.18[39m[22m
+   - Local:        http://localhost:5000
+   - Network:      http://172.24.0.2:5000
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 1554ms
+ [33m[1m⚠[22m[39m Found a change in next.config.mjs. Restarting the server to apply the changes...
+   [1m[38;2;173;127;168m▲ Next.js 15.5.18[39m[22m
+   - Local:        http://localhost:5000
+   - Network:      http://172.24.0.2:5000
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 1503ms
+ [37m[1m○[22m[39m Compiling / ...
+ [32m[1m✓[22m[39m Compiled / in 3.4s (722 modules)
+ GET / [32m200[39m in 3894ms
+ [32m[1m✓[22m[39m Compiled in 750ms (319 modules)
+ GET / [32m200[39m in 136ms
+ [32m[1m✓[22m[39m Compiled in 188ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 181ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 196ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 167ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 150ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 157ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 166ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 153ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 126ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 121ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 115ms (319 modules)
+ [33m[1m⚠[22m[39m Cross origin request detected from 27d672a6-b7dd-4766-92db-f7a03c1660b1-00-t3lq9e6j6hxq.spock.replit.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ [32m[1m✓[22m[39m Compiled in 259ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 146ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 148ms (319 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 124ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 116ms (319 modules)
+ GET / [32m200[39m in 145ms
+ [32m[1m✓[22m[39m Compiled in 160ms (319 modules)
+ [32m[1m✓[22m[39m Compiled in 134ms (319 modules)
+ GET / [32m200[39m in 122ms
+ [32m[1m✓[22m[39m Compiled in 141ms (319 modules)
+ GET / [32m200[39m in 135ms
+ [32m[1m✓[22m[39m Compiled in 130ms (319 modules)
+ GET / [32m200[39m in 119ms
+ [32m[1m✓[22m[39m Compiled in 155ms (319 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 141ms (319 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 121ms (319 modules)
+ GET / [32m200[39m in 142ms
+ [32m[1m✓[22m[39m Compiled in 153ms (319 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 133ms (319 modules)
+ GET / [32m200[39m in 49ms
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 675ms (319 modules)
+ [37m[1m○[22m[39m Compiling /_error ...
+ [32m[1m✓[22m[39m Compiled /_error in 2.4s (1069 modules)
+ [32m[1m✓[22m[39m Compiled in 150ms (472 modules)
+ GET / [31m500[39m in 3501ms
+ [32m[1m✓[22m[39m Compiled in 274ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 308ms (472 modules)
+ GET / [32m200[39m in 278ms
+ [32m[1m✓[22m[39m Compiled in 164ms (472 modules)
+ GET / [32m200[39m in 65ms
+ [32m[1m✓[22m[39m Compiled in 170ms (472 modules)
+ GET / [32m200[39m in 59ms
+ [32m[1m✓[22m[39m Compiled in 183ms (472 modules)
+ GET / [32m200[39m in 59ms
+ [32m[1m✓[22m[39m Compiled in 174ms (472 modules)
+ GET / [32m200[39m in 59ms
+ [32m[1m✓[22m[39m Compiled in 176ms (472 modules)
+ GET / [32m200[39m in 73ms
+ [32m[1m✓[22m[39m Compiled in 159ms (472 modules)
+ GET / [32m200[39m in 51ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 165ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 160ms (472 modules)
+ GET / [31m500[39m in 330ms
+ [32m[1m✓[22m[39m Compiled in 144ms (472 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 153ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 133ms (472 modules)
+ GET / [31m500[39m in 304ms
+ [32m[1m✓[22m[39m Compiled in 143ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 152ms (472 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 171ms (472 modules)
+ GET / [32m200[39m in 58ms
+ [32m[1m✓[22m[39m Compiled in 152ms (472 modules)
+ GET / [32m200[39m in 184ms
+ [32m[1m✓[22m[39m Compiled in 152ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 150ms (472 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 137ms (472 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 161ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 136ms (472 modules)
+ GET / [31m500[39m in 300ms
+ [32m[1m✓[22m[39m Compiled in 139ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (472 modules)
+ GET / [32m200[39m in 59ms
+ [32m[1m✓[22m[39m Compiled in 157ms (472 modules)
+ GET / [32m200[39m in 50ms
+ [32m[1m✓[22m[39m Compiled in 145ms (472 modules)
+ GET / [32m200[39m in 60ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 368ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 131ms (472 modules)
+ GET / [31m500[39m in 509ms
+ [32m[1m✓[22m[39m Compiled in 154ms (472 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 369ms (1069 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (472 modules)
+ GET / [31m500[39m in 559ms
+ [32m[1m✓[22m[39m Compiled in 173ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 231ms (472 modules)
+ GET / [32m200[39m in 147ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 164ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 142ms (472 modules)
+ GET / [31m500[39m in 317ms
+ [32m[1m✓[22m[39m Compiled in 150ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 144ms (472 modules)
+ GET / [32m200[39m in 195ms
+ [32m[1m✓[22m[39m Compiled in 156ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 145ms (472 modules)
+ GET / [32m200[39m in 179ms
+ [32m[1m✓[22m[39m Compiled in 144ms (472 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 167ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 135ms (472 modules)
+ GET / [31m500[39m in 305ms
+ [32m[1m✓[22m[39m Compiled in 143ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 262ms (472 modules)
+ GET / [32m200[39m in 286ms
+ GET / [32m200[39m in 170ms
+ [32m[1m✓[22m[39m Compiled in 197ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 140ms (472 modules)
+ GET / [32m200[39m in 187ms
+ [32m[1m✓[22m[39m Compiled in 156ms (472 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 151ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 137ms (472 modules)
+ GET / [31m500[39m in 300ms
+ [32m[1m✓[22m[39m Compiled in 139ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 134ms (472 modules)
+ GET / [32m200[39m in 54ms
+ [32m[1m✓[22m[39m Compiled in 140ms (472 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 145ms (472 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 144ms (472 modules)
+ GET / [32m200[39m in 49ms
+ [32m[1m✓[22m[39m Compiled in 130ms (472 modules)
+ GET / [32m200[39m in 47ms
+ [32m[1m✓[22m[39m Compiled in 143ms (472 modules)
+ GET / [32m200[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 136ms (472 modules)
+ GET / [32m200[39m in 53ms
+ [32m[1m✓[22m[39m Compiled in 125ms (472 modules)
+ GET / [32m200[39m in 125ms
+ [32m[1m✓[22m[39m Compiled in 150ms (472 modules)
+ GET / [32m200[39m in 66ms
+ [32m[1m✓[22m[39m Compiled in 155ms (472 modules)
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 160ms (472 modules)
+ GET / [32m200[39m in 73ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 360ms (1069 modules)
+ [32m[1m✓[22m[39m Compiled in 121ms (472 modules)
+ GET / [31m500[39m in 509ms
+ [32m[1m✓[22m[39m Compiled in 422ms (1069 modules)
+ GET / [32m200[39m in 287ms
+ [32m[1m✓[22m[39m Compiled in 174ms (472 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 142ms (472 modules)
+ GET / [32m200[39m in 110ms
+ [32m[1m✓[22m[39m Compiled in 134ms (472 modules)
+ GET / [32m200[39m in 40ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 364ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (472 modules)
+ GET / [31m500[39m in 527ms
+ [32m[1m✓[22m[39m Compiled in 143ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 155ms (472 modules)
+ GET / [32m200[39m in 52ms
+ [32m[1m✓[22m[39m Compiled in 129ms (472 modules)
+ GET / [32m200[39m in 110ms
+ [32m[1m✓[22m[39m Compiled in 132ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 146ms (472 modules)
+ GET / [32m200[39m in 130ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 158ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 127ms (472 modules)
+ GET / [31m500[39m in 286ms
+ [32m[1m✓[22m[39m Compiled in 129ms (472 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 139ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 123ms (472 modules)
+ GET / [31m500[39m in 271ms
+ [32m[1m✓[22m[39m Compiled in 126ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 115ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 142ms (472 modules)
+ GET / [32m200[39m in 131ms
+ [32m[1m✓[22m[39m Compiled in 130ms (472 modules)
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 150ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 125ms (472 modules)
+ GET / [31m500[39m in 284ms
+ [32m[1m✓[22m[39m Compiled in 137ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 124ms (472 modules)
+ GET / [32m200[39m in 176ms
+ [32m[1m✓[22m[39m Compiled in 143ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (472 modules)
+ GET / [32m200[39m in 51ms
+ [32m[1m✓[22m[39m Compiled in 136ms (472 modules)
+ GET / [32m200[39m in 63ms
+ [32m[1m✓[22m[39m Compiled in 137ms (472 modules)
+ GET / [32m200[39m in 45ms
+ [32m[1m✓[22m[39m Compiled in 138ms (472 modules)
+ GET / [32m200[39m in 109ms
+ [32m[1m✓[22m[39m Compiled in 135ms (472 modules)
+ GET / [32m200[39m in 43ms
+ [32m[1m✓[22m[39m Compiled in 163ms (472 modules)
+ GET / [32m200[39m in 55ms
+ [31m[1m⨯[22m[39m SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 336ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 141ms (472 modules)
+ GET / [31m500[39m in 486ms
+ [32m[1m✓[22m[39m Compiled in 254ms (472 modules)
+ GET / [32m200[39m in 224ms
+ [32m[1m✓[22m[39m Compiled in 149ms (472 modules)
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.]
+ [31m[1m⨯[22m[39m [Error [InvariantError]: Invariant: Expected clientReferenceManifest to be defined. This is a bug in Next.js.] {
+  page: [32m'/'[39m
+}
+ [32m[1m✓[22m[39m Compiled in 1211ms (1069 modules)
+ [32m[1m✓[22m[39m Compiled in 164ms (472 modules)
+ GET / [31m500[39m in 1410ms
+ [32m[1m✓[22m[39m Compiled in 158ms (472 modules)
+ [32m[1m✓[22m[39m Compiled in 200ms (472 modules)
+ GET / [32m200[39m in 108ms
+ [32m[1m✓[22m[39m Compiled in 191ms (472 modules)
+ GET / [32m200[39m in 240ms
+ [32m[1m✓[22m[39m Compiled in 274ms (472 modules)
+[?25h
+[1G[0K⠙[1G[0K

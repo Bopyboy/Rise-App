@@ -23,6 +23,12 @@ interface AppState {
   bodyPRs: BodyChartPRs
   friends: Friend[]
   friendCode: string
+  coins: number
+  ownedItems: string[]
+  equippedItems: Record<string, string>
+  addCoins: (amount: number) => void
+  buyItem: (itemId: string, cost: number) => void
+  equipItem: (itemId: string, type: string) => void
   updateSettings: (settings: Partial<UserSettings>) => void
   addRiseScore: (points: number) => void
   addMealEntry: (meal: 'breakfast' | 'lunch' | 'dinner' | 'snacks', entry: MealEntry) => void
@@ -88,8 +94,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [friends, setFriends] = useState<Friend[]>([])
   const [friendCode, setFriendCode] = useState<string>('')
   const [isLoaded, setIsLoaded] = useState(false)
+  const [coins, setCoins] = useState(0)
+  const [ownedItems, setOwnedItems] = useState<string[]>([])
+  const [equippedItems, setEquippedItems] = useState<Record<string, string>>({})
 
-  // Load from localStorage
   useEffect(() => {
     const savedSettings = localStorage.getItem('rise-settings')
     const savedScore = localStorage.getItem('rise-score')
@@ -99,6 +107,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
     const savedQuest = localStorage.getItem('rise-quest')
     const savedPRs = localStorage.getItem('rise-body-prs')
     const savedFriends = localStorage.getItem('rise-friends')
+    const savedCoins = localStorage.getItem('rise-coins')
+    const savedOwned = localStorage.getItem('rise-owned-items')
+    const savedEquipped = localStorage.getItem('rise-equipped-items')
     let savedCode = localStorage.getItem('rise-friend-code')
 
     if (!savedCode) {
@@ -107,24 +118,16 @@ export function AppProvider({ children }: { children: ReactNode }) {
     }
     setFriendCode(savedCode)
 
-    if (savedSettings) {
-      try { setSettings(JSON.parse(savedSettings)) } catch {}
-    }
-    if (savedScore) {
-      try { setRiseScore(JSON.parse(savedScore)) } catch {}
-    }
-    if (savedStreak) {
-      try { setStreak(JSON.parse(savedStreak)) } catch {}
-    }
+    if (savedSettings) { try { setSettings(JSON.parse(savedSettings)) } catch {} }
+    if (savedScore) { try { setRiseScore(JSON.parse(savedScore)) } catch {} }
+    if (savedStreak) { try { setStreak(JSON.parse(savedStreak)) } catch {} }
     if (savedNutrition) {
       try {
         const parsed = JSON.parse(savedNutrition)
         if (parsed.date === getTodayString()) setNutrition(parsed)
       } catch {}
     }
-    if (savedWorkout) {
-      try { setWorkoutSplit(JSON.parse(savedWorkout)) } catch {}
-    }
+    if (savedWorkout) { try { setWorkoutSplit(JSON.parse(savedWorkout)) } catch {} }
     if (savedQuest) {
       try {
         const parsed = JSON.parse(savedQuest)
@@ -139,16 +142,15 @@ export function AppProvider({ children }: { children: ReactNode }) {
       const newQuest = getDailyQuest(getTodayString())
       setQuestState({ quest: newQuest, progress: 0, completed: false, assignedDate: getTodayString() })
     }
-    if (savedPRs) {
-      try { setBodyPRs(JSON.parse(savedPRs)) } catch {}
-    }
-    if (savedFriends) {
-      try { setFriends(JSON.parse(savedFriends)) } catch {}
-    }
+    if (savedPRs) { try { setBodyPRs(JSON.parse(savedPRs)) } catch {} }
+    if (savedFriends) { try { setFriends(JSON.parse(savedFriends)) } catch {} }
+    if (savedCoins) { try { setCoins(JSON.parse(savedCoins)) } catch {} }
+    if (savedOwned) { try { setOwnedItems(JSON.parse(savedOwned)) } catch {} }
+    if (savedEquipped) { try { setEquippedItems(JSON.parse(savedEquipped)) } catch {} }
+
     setIsLoaded(true)
   }, [])
 
-  // Save to localStorage
   useEffect(() => { if (!isLoaded) return; localStorage.setItem('rise-settings', JSON.stringify(settings)) }, [settings, isLoaded])
   useEffect(() => { if (!isLoaded) return; localStorage.setItem('rise-score', JSON.stringify(riseScore)) }, [riseScore, isLoaded])
   useEffect(() => { if (!isLoaded) return; localStorage.setItem('rise-streak', JSON.stringify(streak)) }, [streak, isLoaded])
@@ -157,6 +159,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
   useEffect(() => { if (!isLoaded) return; if (questState) localStorage.setItem('rise-quest', JSON.stringify(questState)) }, [questState, isLoaded])
   useEffect(() => { if (!isLoaded) return; localStorage.setItem('rise-body-prs', JSON.stringify(bodyPRs)) }, [bodyPRs, isLoaded])
   useEffect(() => { if (!isLoaded) return; localStorage.setItem('rise-friends', JSON.stringify(friends)) }, [friends, isLoaded])
+  useEffect(() => { if (!isLoaded) return; localStorage.setItem('rise-coins', JSON.stringify(coins)) }, [coins, isLoaded])
+  useEffect(() => { if (!isLoaded) return; localStorage.setItem('rise-owned-items', JSON.stringify(ownedItems)) }, [ownedItems, isLoaded])
+  useEffect(() => { if (!isLoaded) return; localStorage.setItem('rise-equipped-items', JSON.stringify(equippedItems)) }, [equippedItems, isLoaded])
 
   const updateSettings = (newSettings: Partial<UserSettings>) => {
     setSettings(prev => ({ ...prev, ...newSettings }))
@@ -164,6 +169,20 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const addRiseScore = (points: number) => {
     setRiseScore(prev => prev + points)
+  }
+
+  const addCoins = (amount: number) => {
+    setCoins(prev => prev + amount)
+  }
+
+  const buyItem = (itemId: string, cost: number) => {
+    if (coins < cost) return
+    setCoins(prev => prev - cost)
+    setOwnedItems(prev => prev.includes(itemId) ? prev : [...prev, itemId])
+  }
+
+  const equipItem = (itemId: string, type: string) => {
+    setEquippedItems(prev => ({ ...prev, [type]: itemId }))
   }
 
   const addMealEntry = (meal: 'breakfast' | 'lunch' | 'dinner' | 'snacks', entry: MealEntry) => {
@@ -232,6 +251,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     if (questState && !questState.completed) {
       setQuestState(prev => prev ? { ...prev, completed: true, progress: prev.quest.target } : null)
       addRiseScore(questState.quest.xpReward)
+      addCoins(50)
     }
   }
 
@@ -275,6 +295,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
         bodyPRs,
         friends,
         friendCode,
+        coins,
+        ownedItems,
+        equippedItems,
+        addCoins,
+        buyItem,
+        equipItem,
         updateSettings,
         addRiseScore,
         addMealEntry,

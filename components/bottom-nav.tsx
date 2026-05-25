@@ -1,6 +1,6 @@
 'use client'
 
-import { Home, Utensils, Dumbbell, Settings, Activity, MessageCircle, Users } from 'lucide-react'
+import { Home, Utensils, Dumbbell, Settings, Activity, MessageCircle, Users, ShoppingBag } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 interface BottomNavProps {
@@ -13,6 +13,7 @@ const tabs = [
   { id: 'workout', icon: Dumbbell, label: 'Workout' },
   { id: 'body', icon: Activity, label: 'Body' },
   { id: 'nutrition', icon: Utensils, label: 'Nutrition' },
+  { id: 'shop', icon: ShoppingBag, label: 'Shop' },
   { id: 'friends', icon: Users, label: 'Friends' },
   { id: 'chat', icon: MessageCircle, label: 'Chat' },
   { id: 'settings', icon: Settings, label: 'Settings' },

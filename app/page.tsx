@@ -10,6 +10,7 @@ import { BodyChartPage } from '@/components/body-chart-page'
 import { SettingsPage } from '@/components/settings-page'
 import { ChatPage } from '@/components/chat-page'
 import { FriendsPage } from '@/components/friends-page'
+import { ShopPage } from '@/components/shop-page'
 
 function AppContent() {
   const [activeTab, setActiveTab] = useState('home')
@@ -24,6 +25,7 @@ function AppContent() {
         {activeTab === 'settings' && <SettingsPage />}
         {activeTab === 'chat' && <ChatPage />}
         {activeTab === 'friends' && <FriendsPage />}
+        {activeTab === 'shop' && <ShopPage />}
       </main>
       <BottomNav activeTab={activeTab} onTabChange={setActiveTab} />
     </div>
